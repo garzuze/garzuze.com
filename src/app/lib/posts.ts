@@ -26,3 +26,23 @@ function getAllPosts(): Post[] {
 
     return allPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
+
+function getPostBySlug(slug: string): Post | null {
+    try {
+        const fullPath = path.join(process.cwd(), `${slug}.md`);
+        const fileContent = fs.readFileSync(fullPath, 'utf8');
+        const { data, content } = matter(fileContent);
+
+        return {
+            slug,
+            title: data.title || "Untitled",
+            date: data.date || new Date().toISOString(),
+            excerpt: data.excerpt || '',
+            content,
+            tags: data.tags || []
+        }
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
+}
