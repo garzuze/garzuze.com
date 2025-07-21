@@ -1,12 +1,11 @@
 'use client';
 
-import { useState } from "react";
-import { useTheme } from "./ThemeProvider";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import { Menu, Moon, Sun, X } from "lucide-react";
+import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
-    const { theme, toggleTheme } = useTheme();
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
     const navItems = [
         { href: '/', label: 'Home' },
@@ -17,7 +16,7 @@ export default function Header() {
     ]
 
     return (
-        <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+        <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-700/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
             <div className="container mx-auto px-4 py-4">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
@@ -35,24 +34,13 @@ export default function Header() {
                                 {item.label}
                             </Link>
                         ))}
+                        <ThemeToggle />
                     </nav>
 
-                    <button
-                        onClick={toggleTheme}
-                        className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                    >
-                        {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
-                    </button>
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center space-x-4">
-                        <button
-                            onClick={toggleTheme}
-                            className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800"
-                        >
-                            {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
-                        </button>
-
+                        <ThemeToggle />
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800"
@@ -76,7 +64,7 @@ export default function Header() {
                             </Link>
                         ))}
                     </nav>
-                ): null}
+                ) : null}
             </div>
         </header>
     )
