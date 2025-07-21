@@ -2,10 +2,12 @@ import fs, { readdirSync } from 'fs';
 import matter from 'gray-matter';
 import path from 'path';
 import { Post } from '../types/Post';
+import { remark } from 'remark';
+import html from 'remark-html';
 
 const postDirectory = path.join(process.cwd(), 'posts');
 
-function getAllPosts(): Post[] {
+export function getAllPosts(): Post[] {
     const fileNames = readdirSync(postDirectory);
     const allPosts = fileNames
         .filter((fileName) => fileName.endsWith('.md'))
@@ -27,7 +29,7 @@ function getAllPosts(): Post[] {
     return allPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-function getPostBySlug(slug: string): Post | null {
+export function getPostBySlug(slug: string): Post | null {
     try {
         const fullPath = path.join(process.cwd(), `${slug}.md`);
         const fileContent = fs.readFileSync(fullPath, 'utf8');
@@ -45,4 +47,9 @@ function getPostBySlug(slug: string): Post | null {
         console.error(error);
         return null;
     }
+}
+
+export async function markdownToHtml(markdown: string): Promise<string> {
+    const result = await remark().use(html).process(markdown);
+    return result.toString();
 }
