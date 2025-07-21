@@ -16,10 +16,10 @@ export default function Header() {
     ]
 
     return (
-        <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-700/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+        <header className="sticky top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-800">
             <div className="container mx-auto px-4 py-4">
                 <div className="flex items-center justify-between">
-                    <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
+                    <Link href="/" className="text-2xl font-bold text-stone-900 dark:text-white">
                         garzuze
                     </Link>
 
@@ -29,7 +29,7 @@ export default function Header() {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                                className="text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors"
                             >
                                 {item.label}
                             </Link>
@@ -43,7 +43,7 @@ export default function Header() {
                         <ThemeToggle />
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800"
+                            className="p-2 rounded-lg bg-stone-100 dark:bg-stone-800"
                         >
                             {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
                         </button>
@@ -57,7 +57,7 @@ export default function Header() {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="block py-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                                className="block py-2 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {item.label}

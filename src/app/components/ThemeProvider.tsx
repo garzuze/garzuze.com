@@ -46,7 +46,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
+            <div className="min-h-screen bg-white dark:bg-stone-950 transition-colors">
                 {children}
             </div>
         </ThemeContext.Provider>
