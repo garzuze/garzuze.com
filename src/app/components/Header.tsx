@@ -8,23 +8,21 @@ import ThemeToggle from "./ThemeToggle";
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
     const navItems = [
-        { href: '/', label: 'Home' },
-        { href: '/blog', label: 'Blog' },
-        { href: '#about', label: 'About' },
-        { href: '#projects', label: 'Projects' },
-        { href: '#contact', label: 'Contact' },
+        { href: '/', label: '<main>' },
+        { href: '/blog', label: 'blog' },
+        { href: '#contact', label: 'contact' },
     ]
 
     return (
         <header className="sticky top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-800">
-            <div className="container mx-auto px-4 py-4">
+            <div className="mx-auto md:max-w-3xl px-4 py-4">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-2xl font-bold text-stone-900 dark:text-white">
                         garzuze
                     </Link>
 
-                    {/* Desktop Navigation */}
-                    <nav className="hidden md:flex items-center space-x-8">
+                    {/* Desktop Na  vigation */}
+                    <nav className="hidden md:flex items-center space-x-8 font-mono">
                         {navItems.map((item) => (
                             <Link
                                 key={item.href}
@@ -51,20 +49,22 @@ export default function Header() {
                 </div>
 
                 {/* Mobile Navigation */}
-                {isMenuOpen ? (
-                    <nav className="md:hidden mt-4 pb-4">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.href}
-                                href={item.href}
-                                className="block py-2 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors"
-                                onClick={() => setIsMenuOpen(false)}
-                            >
-                                {item.label}
-                            </Link>
-                        ))}
-                    </nav>
-                ) : null}
+                <nav className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out
+                    ${isMenuOpen
+                        ? "opacity-100 translate-y-0 pointer-events-auto"
+                        : "opacity-0 -translate-y-2 pointer-events-none"}`}>
+                    {navItems.map((item) => (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className="block py-2 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors ml-6"
+                            onClick={() => setIsMenuOpen(false)}
+                        >
+                            {item.label}
+                        </Link>
+                    ))}
+                </nav>
+
             </div>
         </header>
     )
