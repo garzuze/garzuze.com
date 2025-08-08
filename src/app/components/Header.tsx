@@ -14,10 +14,10 @@ export default function Header() {
     ]
 
     return (
-        <header className="sticky top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-800">
-            <div className="mx-auto md:max-w-3xl p-4 border-x border-stone-200">
+        <header className="sticky top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900">
+            <div className="mx-auto md:max-w-3xl p-4 border-x border-stone-200 dark:border-stone-900">
                 <div className="flex items-center justify-between">
-                    <Link href="/" className="text-2xl font-bold text-stone-900 dark:text-white">
+                    <Link href="/" className="text-2xl font-bold">
                         garzuze
                     </Link>
 
