@@ -18,9 +18,9 @@ const Profile = () => {
                         className="inset-0 h-full w-full bg-white/80 dark:bg-stone-950/80 bg-[linear-gradient(to_right,#e7e5e4_1px,transparent_1px),linear-gradient(to_bottom,#e7e5e4_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#1c1917_1px,transparent_1px),linear-gradient(to_bottom,#1c1917_1px,transparent_1px)] bg-[size:24px_24px]" />
                 </div>
                 <div className="items-end w-full h-1/2">
-                    <div className="w-full h-full flex items-center sm:px-4 px-2 sm:py-2 py-1">
+                    <div className="w-full h-full flex items-center sm:px-4 px-1 sm:py-2 py-1">
                         <div>
-                            <h1 className="sm:text-4xl text-lg font-semibold">Lucas Garzuze Cordeiro</h1>
+                            <h1 className="md:text-4xl text-lg sm:text-3xl font-bold">Lucas Garzuze Cordeiro</h1>
                             <p className="sm:text-sm text-xs sm:mt-2 text-gray-500 dark:text-gray-300 italic">Looking for building a brighter future through technology.</p>
                         </div>
                     </div>

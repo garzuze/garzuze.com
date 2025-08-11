@@ -14,7 +14,7 @@ export default function Header() {
     ]
 
     return (
-        <header className="sticky top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900">
+        <header className="sticky top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900 sm:shadow-md">
             <div className="mx-auto md:max-w-3xl p-4 border-x border-stone-200 dark:border-stone-900">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-2xl font-bold">
@@ -49,7 +49,7 @@ export default function Header() {
                 </div>
 
                 {/* Mobile Navigation */}
-                <nav className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out
+                <nav className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out bg-white dark:bg-stone-950 shadow-2xl
                     ${isMenuOpen
                         ? "opacity-100 translate-y-0 pointer-events-auto"
                         : "opacity-0 -translate-y-2 pointer-events-none"}`}>
