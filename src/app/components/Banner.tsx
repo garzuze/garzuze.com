@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
     return (
-        <div className="h-52 sm:h-72 border-x border-stone-200 dark:border-stone-900">
+        <div className="h-40 sm:h-52 border-x border-stone-200 dark:border-stone-900">
             <Image
                 src="/images/fog_croped.jpg"
                 alt="Banner image"
