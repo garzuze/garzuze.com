@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Separator from "./Separtor";
+import Topics from "./Topics";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         <Separator />
         <Profile />
         <Separator />
-        
+        <Topics />
+        <Separator />
       </main>
     </div>
   );
