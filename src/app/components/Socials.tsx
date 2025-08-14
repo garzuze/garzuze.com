@@ -8,10 +8,10 @@ const Socials = () => {
                     <div className="flex space-x-[25px]">
                         <Image alt="LinkedIn" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" className="shrink-0" style={{ color: 'transparent' }} src="/images/linkedin.webp" />
                         <div className="block">
-                            <h2 className="text-xl font-semibold group-hover:underline cursor-pointer">
+                            <h2 className="scroll-m-20 text-xl font-semibold tracking-tight group-hover:underline cursor-pointer">
                                 Linkedin
                             </h2>
-                            <p className="sm:text-sm text-xs items-center text-gray-500 dark:text-gray-300">garzuze</p>
+                            <p className="text-sm leading-none font-medium text-gray-500 dark:text-gray-300">garzuze</p>
                         </div>
                     </div>
                 </a>
@@ -21,10 +21,10 @@ const Socials = () => {
                     <div className="flex space-x-[25px]">
                         <Image alt="LinkedIn" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" className="shrink-0" style={{ color: 'transparent' }} src="/images/github.webp" />
                         <div className="block">
-                            <h2 className="text-xl font-semibold group-hover:underline cursor-pointer">
+                            <h2 className="scroll-m-20 text-xl font-semibold tracking-tight group-hover:underline cursor-pointer">
                                 Github
                             </h2>
-                            <p className="sm:text-sm text-xs items-center text-gray-500 dark:text-gray-300">garzuze</p>
+                            <p className="text-sm leading-none font-medium text-gray-500 dark:text-gray-300">garzuze</p>
                         </div>
                     </div>
                 </a>

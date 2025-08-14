@@ -6,7 +6,6 @@ const AboutMe = () => {
             <TypographyH2>
                 About Me
             </TypographyH2>
-            <div className="sm:text-lg text-md">
                 <p className="leading-7 mt-6">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, quae quam magni nemo debitis magnam enim, saepe aspernatur eligendi libero ad
                 </p>
@@ -16,7 +15,6 @@ const AboutMe = () => {
                 <p className="leading-7 mt-6">
                     vo escrever isso daqui depois kkkk
                 </p>
-            </div>
         </div>
     )
 };

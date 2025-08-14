@@ -1,7 +1,7 @@
 const Topics = () => {
     return (
         <div className="border-x border-stone-200 dark:border-stone-900 py-6 px-4">
-            <ul className="ml-6 list-disc sm:text-lg text-md">
+            <ul className="ml-6 list-disc">
                 <li>Full Stack developer @ <b>Britânia</b></li>
                 <li className="mt-2">Creator of <b>MLRH System</b></li>
                 <li className="mt-2">Student @ <b>UFPR</b></li>
