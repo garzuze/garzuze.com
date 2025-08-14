@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe";
 import Banner from "./components/Banner";
 import BigSeparator from "./components/BigSeparator";
 import Header from "./components/Header";
@@ -19,7 +20,7 @@ export default function Home() {
         <BigSeparator />
         <Socials />
         <BigSeparator />
-        <div className="mt-8"></div>
+        <AboutMe />
       </main>
     </div>
   );
