@@ -16,6 +16,9 @@ export default function Home() {
         <BigSeparator />
         <Topics />
         <BigSeparator />
+        <div className="mt-8">
+          
+        </div>
       </main>
     </div>
   );
