@@ -1,23 +1,9 @@
 import type { Metadata } from "next";
 import "./global.css";
 import { ThemeProvider } from './components/ThemeProvider';
-import localFont from 'next/font/local';
+import { Inter } from 'next/font/google';
 
-const sf = localFont({
-  src: [
-    {
-      path: '../../public/fonts/sanfranciscodisplay-regular-webfont.woff',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/sanfranciscodisplay-bold-webfont.woff',
-      weight: '600',
-      style: 'bold',
-    },
-  ],
-  variable: '--font-sf',
-})
+const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
   title: "garzuze - portfolio",
@@ -30,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className={sf.className}>
+    <html lang="en" suppressHydrationWarning className={inter.className}>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>

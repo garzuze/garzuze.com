@@ -9,7 +9,7 @@ import Topics from "./components/Topics";
 
 export default function Home() {
   return (
-    <div className="text-stone-900 dark:text-white bg-white/80 dark:bg-stone-950/80 font-sf overflow-hidden">
+    <div className="text-stone-900 dark:text-white bg-white/80 dark:bg-stone-950/80 overflow-hidden">
       <Header />
       <main className="mx-auto md:max-w-3xl mt-16">
         <Banner />
