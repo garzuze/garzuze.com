@@ -6,6 +6,7 @@ import Profile from "./components/Profile";
 import Separator from "./components/Separator";
 import Socials from "./components/Socials";
 import Topics from "./components/Topics";
+import WorkXP from "./components/WorkXP";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         <Socials />
         <BigSeparator />
         <AboutMe />
+        <BigSeparator />
+        <WorkXP/>
       </main>
     </div>
   );
