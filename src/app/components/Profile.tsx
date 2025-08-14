@@ -19,7 +19,7 @@ const Profile = () => {
                 <div className="items-end w-full h-1/2">
                     <div className="w-full h-full flex items-center">
                         <div className="w-full">
-                            <h1 className="md:text-4xl text-2xl sm:text-3xl font-bold sm:px-4 px-1 border-y border-stone-200 dark:border-stone-900 w-full text-clip">
+                            <h1 className="md:text-4xl text-2xl sm:text-3xl font-bold sm:px-4 px-1 border-y border-stone-200 dark:border-stone-900 w-full scroll-m-20 tracking-tight text-balance">
                                 Lucas Garzuze Cordeiro
                             </h1>
                             <div className="flex w-full items-center border-b border-stone-200 dark:border-stone-900">
