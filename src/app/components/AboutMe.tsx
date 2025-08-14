@@ -1,9 +1,11 @@
+import { TypographyH2 } from "./TypographyH2"
+
 const AboutMe = () => {
     return (
         <div className="border-x border-stone-200 dark:border-stone-900 py-6 px-[24px]">
-            <h2 className="scroll-m-20 border-b border-stone-200 dark:border-stone-900 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+            <TypographyH2>
                 About Me
-            </h2>
+            </TypographyH2>
             <div className="sm:text-lg text-md">
                 <p className="leading-7 mt-6">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, quae quam magni nemo debitis magnam enim, saepe aspernatur eligendi libero ad
