@@ -12,7 +12,7 @@ const sf = localFont({
     },
     {
       path: '../../public/fonts/sanfranciscodisplay-bold-webfont.woff',
-      weight: '700',
+      weight: '600',
       style: 'bold',
     },
   ],
