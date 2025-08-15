@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Separator from "./components/Separator";
 import Socials from "./components/Socials";
+import TechStack from "./components/TechStack";
 import Topics from "./components/Topics";
 import WorkXP from "./components/WorkXP";
 
@@ -23,7 +24,10 @@ export default function Home() {
         <BigSeparator />
         <AboutMe />
         <BigSeparator />
-        <WorkXP/>
+        <WorkXP />
+        <BigSeparator />
+        <TechStack />
+        <BigSeparator />
       </main>
     </div>
   );
