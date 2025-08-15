@@ -8,6 +8,7 @@ import Socials from "./components/socials";
 import TechStack from "./components/tech-stack";
 import Topics from "./components/topics";
 import WorkXP from "./components/work-experience";
+import Education from "./components/Education";
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
         <BigSeparator />
         <TechStack />
         <BigSeparator />
+        <Education />
+        <BigSeparator/>
       </main>
     </div>
   );
