@@ -1,9 +1,9 @@
 'use client';
 
+import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-import ThemeToggle from "./theme-toggle";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -32,13 +32,13 @@ export default function Header() {
                                 {item.label}
                             </Link>
                         ))}
-                        <ThemeToggle />
+                       <ThemeSwitcher id={"theme-switch-desktop"} />
                     </nav>
 
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center space-x-4">
-                        <ThemeToggle />
+                       <ThemeSwitcher id="theme-switch-mobile" />
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="p-2 rounded-lg bg-stone-100 dark:bg-stone-800"
