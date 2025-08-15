@@ -25,8 +25,8 @@ function ThemeOption({
       className={cn(
         "relative flex size-8 cursor-default items-center justify-center rounded-full transition-all [&_svg]:size-4",
         isActive
-          ? "text-zinc-950 dark:text-zinc-50"
-          : "text-zinc-400 hover:text-zinc-950 dark:text-zinc-500 dark:hover:text-zinc-50"
+          ? "text-stone-950 dark:text-stone-50"
+          : "text-stone-400 hover:text-stone-950 dark:text-stone-500 dark:hover:text-stone-50"
       )}
       role="radio"
       aria-checked={isActive}
@@ -39,7 +39,7 @@ function ThemeOption({
         <motion.div
           layoutId={id}
           transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
-          className="absolute inset-0 rounded-full border border-zinc-200 dark:border-zinc-700"
+          className="absolute inset-0 rounded-full border border-stone-200 dark:border-stone-700"
         />
       )}
     </button>
@@ -80,7 +80,7 @@ function ThemeSwitcher({ id }: { id: string }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="inline-flex items-center z-[100] overflow-hidden rounded-full bg-white ring-1 ring-zinc-200 ring-inset dark:bg-zinc-950 dark:ring-zinc-700"
+      className="inline-flex items-center z-[100] overflow-hidden rounded-full bg-white ring-1 ring-stone-200 ring-inset dark:bg-stone-950 dark:ring-stone-700"
       role="radiogroup"
     >
       {THEME_OPTIONS.map((option) => (
