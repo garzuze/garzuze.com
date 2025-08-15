@@ -1,13 +1,13 @@
-import AboutMe from "./components/AboutMe";
-import Banner from "./components/Banner";
-import BigSeparator from "./components/BigSeparator";
-import Header from "./components/Header";
-import Profile from "./components/Profile";
-import Separator from "./components/Separator";
-import Socials from "./components/Socials";
-import TechStack from "./components/TechStack";
-import Topics from "./components/Topics";
-import WorkXP from "./components/WorkXP";
+import { Separator } from "@radix-ui/react-separator";
+import AboutMe from "./components/about-me";
+import Banner from "./components/banner";
+import BigSeparator from "./components/big-separator";
+import Header from "./components/header";
+import Profile from "./components/profile";
+import Socials from "./components/socials";
+import TechStack from "./components/tech-stack";
+import Topics from "./components/topics";
+import WorkXP from "./components/work-experience";
 
 export default function Home() {
   return (
