@@ -1,4 +1,4 @@
-import Separator from "./Separator";
+import { Separator } from "@radix-ui/react-separator";
 
 const BigSeparator = () => {
     return (

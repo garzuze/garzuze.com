@@ -1,6 +1,6 @@
 import { WorkExperience } from "@/components/work-experience";
-import { WORK_EXPERIENCE } from "../utils/constants";
-import { TypographyH2 } from "./TypographyH2"
+import { TypographyH2 } from "./tipography-h2"
+import { WORK_EXPERIENCE } from "../data/work-experience";
 
 const WorkXP = () => {
     return (

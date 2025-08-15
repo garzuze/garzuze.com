@@ -4,8 +4,8 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip";
 import Image from "next/image";
-import { TECH_STACK } from "../utils/constants";
-import { TypographyH2 } from "./TypographyH2";
+import { TypographyH2 } from "./tipography-h2";
+import { TECH_STACK } from "../data/tech-stack";
 
 const TechStack = () => {
     return (

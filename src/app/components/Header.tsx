@@ -3,7 +3,7 @@
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "./theme-toggle";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);

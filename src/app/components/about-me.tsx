@@ -1,4 +1,4 @@
-import { TypographyH2 } from "./TypographyH2"
+import { TypographyH2 } from "./tipography-h2"
 
 const AboutMe = () => {
     return (
