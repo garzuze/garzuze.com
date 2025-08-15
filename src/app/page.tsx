@@ -1,14 +1,15 @@
-import { Separator } from "@radix-ui/react-separator";
 import AboutMe from "./components/about-me";
 import Banner from "./components/banner";
 import BigSeparator from "./components/big-separator";
 import Header from "./components/header";
 import Profile from "./components/profile";
+import Separator from "./components/my-separator";
 import Socials from "./components/socials";
 import TechStack from "./components/tech-stack";
 import Topics from "./components/topics";
 import WorkXP from "./components/work-experience";
-import Education from "./components/Education";
+import Education from "./components/education";
+
 
 export default function Home() {
   return (
