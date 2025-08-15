@@ -12,5 +12,4 @@ const WorkXP = () => {
         </div>
     )
 };
-
 export default WorkXP
