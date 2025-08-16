@@ -51,7 +51,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
                 description:
                     `- Developed a Django system for clients to access their files, improving user experience.\n- Implemented scripts for automatic PDF renaming and email sending, increasing work efficiency.\n- Automated repetitive tasks with Python scripts`,
                 icon: "code",
-                skills: ["JavaScript", "React", "Node.js", "TypeScript", "Python", "Django"],
+                skills: ["JavaScript", "Python", "Django"],
                 isExpanded: true,
             },
         ],

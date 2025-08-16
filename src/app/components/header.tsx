@@ -37,7 +37,7 @@ export default function Header() {
 
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden flex items-center space-x-4">
+                    <div className="md:hidden flex items-center space-x-4 ">
                        <ThemeSwitcher id="theme-switch-mobile" />
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -49,7 +49,7 @@ export default function Header() {
                 </div>
 
                 {/* Mobile Navigation */}
-                <nav className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out bg-white dark:bg-stone-950 shadow-2xl
+                <nav className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out bg-white dark:bg-stone-950 shadow-2xl font-mono [&>*:first-child]:font-bold [&>*:first-child]:text-white
                     ${isMenuOpen
                         ? "opacity-100 translate-y-0 pointer-events-auto"
                         : "opacity-0 -translate-y-2 pointer-events-none"}`}>
