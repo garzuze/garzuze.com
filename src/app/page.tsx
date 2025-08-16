@@ -9,6 +9,7 @@ import TechStack from "./components/tech-stack";
 import Topics from "./components/topics";
 import WorkXP from "./components/work-experience";
 import Education from "./components/education";
+import Projects from "./components/projects";
 
 
 export default function Home() {
@@ -31,6 +32,8 @@ export default function Home() {
         <TechStack />
         <BigSeparator />
         <Education />
+        <BigSeparator />
+        <Projects />
         <BigSeparator/>
       </main>
     </div>
