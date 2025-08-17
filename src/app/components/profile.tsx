@@ -3,7 +3,7 @@ import Image from "next/image";
 const Profile = () => {
     return (
         <div className="mx-auto md:max-w-3xl border-x border-stone-200 dark:border-stone-900 h-[192px] flex">
-            <div className="w-64 border-r border-stone-200 dark:border-stone-900">
+            <div className="w-64 border-r border-stone-200 dark:border-stone-900 items-center grid">
                 <Image
                     src="/images/avatar.jpg"
                     alt="Avatar image"

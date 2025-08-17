@@ -14,7 +14,7 @@ const Projects = () => {
             </div>
             <MySeparator />
             <div className="w-[calc(100%+1px)] border-x border-stone-200 dark:border-stone-900 grid grid-cols-2 gap-x-[48px] sm:h-64">
-                <div className="sm:w-[calc(100%+1px)] border-b sm:border-b-0 col-span-2 sm:col-span-1 py-4 sm:py-0 border-r border-stone-200 dark:border-stone-900 grid px-[24px] group group-hover:bg-stone-950 cursor-pointer">
+                <div className="sm:w-[calc(100%+1px)] border-b sm:border-b-0 col-span-2 sm:col-span-1 py-4 sm:py-0 sm:border-r border-stone-200 dark:border-stone-900 grid px-[24px] group group-hover:bg-stone-950 cursor-pointer">
                     <div className="mt-2">
                         <Image
                             src="/images/mlrh-light.png"
@@ -32,15 +32,15 @@ const Projects = () => {
                         />
                     </div>
                     <div>
-                        <h2 className="scroll-m-20 text-xl font-semibold tracking-tight group-hover:underline cursor-pointer">
+                        <h2 className="scroll-m-20 text-xl font-semibold tracking-tight group-hover:underline cursor-pointer sm:mt-0 mt-4">
                             MLRH
                         </h2>
-                        <p className="text-sm leading-none text-gray-500 dark:text-gray-300">
+                        <p className="text-sm leading-none text-gray-500 dark:text-gray-300 sm:mt-0 mt-2">
                             Platform that centralizes all stages of HR process in a unified interface.
                         </p>
                     </div>
                 </div>
-                <div className="border-l py-4 sm:py-0 border-stone-200 col-span-2 sm:col-span-1 dark:border-stone-900 grid px-[24px] group cursor-pointer">
+                <div className="sm:border-l py-4 sm:py-0 border-stone-200 col-span-2 sm:col-span-1 dark:border-stone-900 grid px-[24px] group cursor-pointer">
                     <div className="mt-2">
                         <Image
                             src="/images/sepais-light.png"
@@ -58,10 +58,10 @@ const Projects = () => {
                         />
                     </div>
                     <div>
-                        <h2 className="scroll-m-20 text-xl font-semibold tracking-tight group-hover:underline cursor-pointer">
+                        <h2 className="scroll-m-20 text-xl font-semibold tracking-tight group-hover:underline cursor-pointer sm:mt-0 mt-4">
                             Sepais
                         </h2>
-                        <p className="text-sm leading-none text-gray-500 dark:text-gray-300">
+                        <p className="text-sm leading-none text-gray-500 dark:text-gray-300 sm:mt-0 mt-2">
                             A system designed to streamline school communication at IFPR.
                         </p>
                     </div>
