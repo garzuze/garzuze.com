@@ -10,6 +10,7 @@ import Topics from "./components/topics";
 import WorkXP from "./components/work-experience";
 import Education from "./components/education";
 import Projects from "./components/projects";
+import Skills from "./components/skills";
 
 
 export default function Home() {
@@ -34,7 +35,9 @@ export default function Home() {
         <Education />
         <BigSeparator />
         <Projects />
-        <BigSeparator/>
+        <BigSeparator />
+        <Skills/>
+        <BigSeparator />
       </main>
     </div>
   );

@@ -5,7 +5,7 @@ const Topics = () => {
                 <li>Full Stack developer @ <b>Britânia</b></li>
                 <li className="mt-2">Creator of <b>MLRH System</b></li>
                 <li className="mt-2">Student @ <b>UFPR</b></li>
-                <li className="mt-2">Curitiba, Paraná - Brazil</li>
+                <li className="mt-2">Curitiba, Paraná - Brasil </li>
                 <li className="mt-2"><a className="font-mono" href="mailto:lucas@garzuze.com">lucas@garzuze.com</a></li>
             </ul>
         </div>
