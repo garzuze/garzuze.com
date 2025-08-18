@@ -14,7 +14,7 @@ export default function Header() {
     ]
 
     return (
-        <header className="fixed w-[calc(100%+1px)] top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900 sm:shadow-md">
+        <header className="fixed w-full top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900 sm:shadow-md">
             <div className="mx-auto md:max-w-3xl p-4 border-x border-stone-200 dark:border-stone-900">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-2xl font-bold">
@@ -22,7 +22,7 @@ export default function Header() {
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden md:flex items-center space-x-8 font-mono [&>*:first-child]:font-bold [&>*:first-child]:text-white">
+                    <nav className="hidden md:flex items-center space-x-8 font-mono [&>*:first-child]:font-bold dark:[&>*:first-child]:text-white [&>*:first-child]:text-black">
                         {navItems.map((item) => (
                             <Link
                                 key={item.href}
