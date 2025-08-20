@@ -1,17 +1,16 @@
-import AboutMe from "./components/about-me";
-import Banner from "./components/banner";
-import BigSeparator from "./components/big-separator";
-import Header from "./components/header";
-import Profile from "./components/profile";
-import Separator from "./components/my-separator";
-import Socials from "./components/socials";
-import TechStack from "./components/tech-stack";
-import Topics from "./components/topics";
-import WorkXP from "./components/work-experience";
-import Education from "./components/education";
-import Projects from "./components/projects";
-import Skills from "./components/skills";
-
+import AboutMe from './components/about-me';
+import Banner from './components/banner';
+import BigSeparator from './components/big-separator';
+import Education from './components/education';
+import Header from './components/header';
+import MySeparator from './components/my-separator';
+import Profile from './components/profile';
+import Projects from './components/projects';
+import Skills from './components/skills';
+import Socials from './components/socials';
+import TechStack from './components/tech-stack';
+import Topics from './components/topics';
+import WorkXP from './components/work-experience';
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
       <Header />
       <main className="mx-auto md:max-w-3xl mt-16">
         <Banner />
-        <Separator />
+        <MySeparator />
         <Profile />
         <BigSeparator />
         <Topics />
@@ -36,7 +35,7 @@ export default function Home() {
         <BigSeparator />
         <Projects />
         <BigSeparator />
-        <Skills/>
+        <Skills />
         <BigSeparator />
       </main>
     </div>

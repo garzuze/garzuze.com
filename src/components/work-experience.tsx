@@ -1,18 +1,22 @@
 import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from '@radix-ui/react-collapsible';
+import { Separator } from '@radix-ui/react-separator';
+import {
   BriefcaseBusinessIcon,
   ChevronsDownUpIcon,
   ChevronsUpDownIcon,
   CodeXmlIcon,
   DraftingCompassIcon,
   GraduationCapIcon,
-} from "lucide-react";
-import Image from "next/image";
-import React from "react";
-import ReactMarkdown from "react-markdown";
+} from 'lucide-react';
+import Image from 'next/image';
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import { cn } from '@/lib/utils';
 
-import { cn } from "@/lib/utils";
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@radix-ui/react-collapsible";
-import { Separator } from "@radix-ui/react-separator";
 
 const iconMap = {
   code: CodeXmlIcon,
@@ -67,7 +71,7 @@ export function WorkExperience({
   experiences: ExperienceItemType[];
 }) {
   return (
-    <div className={cn("bg-background px-4", className)}>
+    <div className={cn('bg-background px-4', className)}>
       {experiences.map((experience) => (
         <ExperienceItem key={experience.id} experience={experience} />
       ))}
@@ -129,7 +133,7 @@ export function ExperiencePositionItem({
 }: {
   position: ExperiencePositionItemType;
 }) {
-  const ExperienceIcon = iconMap[position.icon || "business"];
+  const ExperienceIcon = iconMap[position.icon || 'business'];
 
   return (
     <Collapsible defaultOpen={position.isExpanded} asChild>
@@ -200,26 +204,26 @@ export function ExperiencePositionItem({
   );
 }
 
-function Prose({ className, ...props }: React.ComponentProps<"div">) {
+function Prose({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
       className={cn(
-        "prose prose-sm max-w-none font-mono text-foreground prose-zinc dark:prose-invert",
-        "prose-a:font-medium prose-a:break-words prose-a:text-foreground prose-a:underline prose-a:underline-offset-4",
-        "prose-code:rounded-md prose-code:border prose-code:bg-muted/50 prose-code:px-[0.3rem] prose-code:py-[0.2rem] prose-code:text-sm prose-code:font-normal prose-code:before:content-none prose-code:after:content-none",
-        className
+        'prose prose-sm max-w-none font-mono text-foreground prose-zinc dark:prose-invert',
+        'prose-a:font-medium prose-a:break-words prose-a:text-foreground prose-a:underline prose-a:underline-offset-4',
+        'prose-code:rounded-md prose-code:border prose-code:bg-muted/50 prose-code:px-[0.3rem] prose-code:py-[0.2rem] prose-code:text-sm prose-code:font-normal prose-code:before:content-none prose-code:after:content-none',
+        className,
       )}
       {...props}
     />
   );
 }
 
-function Skill({ className, ...props }: React.ComponentProps<"span">) {
+function Skill({ className, ...props }: React.ComponentProps<'span'>) {
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-lg border bg-muted/50 px-1.5 py-0.5 font-mono text-xs text-muted-foreground",
-        className
+        'inline-flex items-center rounded-lg border bg-muted/50 px-1.5 py-0.5 font-mono text-xs text-muted-foreground',
+        className,
       )}
       {...props}
     />

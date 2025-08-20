@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
-import "./global.css";
-import { ThemeProvider } from './components/theme-provider';
+import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { ThemeProvider } from './components/theme-provider';
+import './global.css';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: "garzuze - portfolio",
-  description: "Fullstack Software Developer",
+  title: 'garzuze - portfolio',
+  description: 'Fullstack Software Developer',
 };
 
 export default function RootLayout({
