@@ -1,6 +1,7 @@
 import AboutMe from './components/about-me';
 import Banner from './components/banner';
 import BigSeparator from './components/big-separator';
+import BlogPosts from './components/blog-posts';
 import Education from './components/education';
 import Header from './components/header';
 import MySeparator from './components/my-separator';
@@ -32,6 +33,8 @@ export default function Home() {
         <TechStack />
         <BigSeparator />
         <Education />
+        <BigSeparator />
+        <BlogPosts />
         <BigSeparator />
         <Projects />
         <BigSeparator />
