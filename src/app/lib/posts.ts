@@ -19,10 +19,11 @@ export function getAllPosts(): Post[] {
       return {
         slug,
         title: data.title || 'Untitled',
-        date: data.date || new Date().toISOString(),
+        date: data.date,
         excerpt: data.excerpt || '',
-        content,
         tags: data.tags || [],
+        image: data.image,
+        content,
       };
     });
 
@@ -40,8 +41,9 @@ export function getPostBySlug(slug: string): Post | null {
       title: data.title || 'Untitled',
       date: data.date || new Date().toISOString(),
       excerpt: data.excerpt || '',
-      content,
+      image: data.image,
       tags: data.tags || [],
+      content,
     };
   } catch {
     return null;
