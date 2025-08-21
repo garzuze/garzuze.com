@@ -191,9 +191,9 @@ export function ExperiencePositionItem({
 
           {Array.isArray(position.skills) && position.skills.length > 0 && (
             <ul className="not-prose flex flex-wrap gap-1.5 pt-2 pl-9">
-              {position.skills.map((skill, index) => (
-                <li key={index} className="flex">
-                  <Skill>{skill}</Skill>
+              {position.skills.map((skill) => (
+                <li key={skill} className="flex">
+                  <Tag>{skill}</Tag>
                 </li>
               ))}
             </ul>
@@ -218,7 +218,7 @@ function Prose({ className, ...props }: React.ComponentProps<'div'>) {
   );
 }
 
-function Skill({ className, ...props }: React.ComponentProps<'span'>) {
+export function Tag({ className, ...props }: React.ComponentProps<'span'>) {
   return (
     <span
       className={cn(
