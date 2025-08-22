@@ -32,7 +32,7 @@ export function getAllPosts(): Post[] {
 
 export function getPostBySlug(slug: string): Post | null {
   try {
-    const fullPath = path.join(process.cwd(), `${slug}.md`);
+    const fullPath = path.join(postDirectory, `${slug}.md`);
     const fileContent = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContent);
 

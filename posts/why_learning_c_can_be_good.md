@@ -1,13 +1,11 @@
 ---
 title: Why learning C can be good if you are starting out
-date: '2022-05-11'
+date: '2025-08-22'
 excerpt: First things first
 tags: ['DSA', 'Algorithms','C']
 author: lucas
 image: /images/blog/learning_c.jpg
 ---
-
-# Muito bacana isso dai vei
 ## show de bola
 ### legal mesmo
 #### kkk acaba nunca
@@ -17,3 +15,7 @@ Essa camada, conforme o nome já diz, cuida dos aspectos físico, o mais baixo-n
 ## Camada de enlace: controle local
 Esta camada pega bits da camada anterior e os organiza em frames (quadros estruturados). É como se fosse um sistema postal local. Utiliza endereços MAC (que são como se fosse o número da sua casa) para entregar dados a computadores que estão conectados na mesma rede local. A camada também implementa controle de erro e de fluxo, que é como se um carteiro verificasse se a carta, de fato, chegou no destinatário ou se o destinatário não está sobrecarregado com cartas
 ## Rede: navegador global
+```
+print("legal")
+```
+> quote muito legal

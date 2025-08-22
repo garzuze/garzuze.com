@@ -3,6 +3,11 @@
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --typography-font-body: var(--font-inter);
+  --typography-font-headings: var(--font-inter);
+  --typography-font-code: ui-monospace, monospace;
+}
 
 @theme inline {
 
@@ -77,6 +82,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@layer utilities {
+  .font-inter {
+    font-family: var(--font-inter), sans-serif;
+  }
+}
+
+
 :root {
 
   --radius: 0.625rem;
@@ -93,13 +105,13 @@
 
   --popover-foreground: oklch(0.147 0.004 49.25);
 
-  --primary: oklch(0.216 0.006 56.043);
+  --primary: oklch(14.7% 0.004 49.25);
 
   --primary-foreground: oklch(0.985 0.001 106.423);
 
   --secondary: oklch(0.97 0.001 106.424);
 
-  --secondary-foreground: oklch(0.216 0.006 56.043);
+  --secondary-foreground: oklch(14.7% 0.004 49.25);
 
   --muted: oklch(0.97 0.001 106.424);
 
@@ -107,7 +119,7 @@
 
   --accent: oklch(0.97 0.001 106.424);
 
-  --accent-foreground: oklch(0.216 0.006 56.043);
+  --accent-foreground: oklch(14.7% 0.004 49.25);
 
   --destructive: oklch(0.577 0.245 27.325);
 
@@ -131,13 +143,13 @@
 
   --sidebar-foreground: oklch(0.147 0.004 49.25);
 
-  --sidebar-primary: oklch(0.216 0.006 56.043);
+  --sidebar-primary: oklch(14.7% 0.004 49.25);
 
   --sidebar-primary-foreground: oklch(0.985 0.001 106.423);
 
   --sidebar-accent: oklch(0.97 0.001 106.424);
 
-  --sidebar-accent-foreground: oklch(0.216 0.006 56.043);
+  --sidebar-accent-foreground: oklch(14.7% 0.004 49.25);
 
   --sidebar-border: oklch(0.923 0.003 48.717);
 
@@ -150,17 +162,17 @@
 
   --foreground: oklch(0.985 0.001 106.423);
 
-  --card: oklch(0.216 0.006 56.043);
+  --card: oklch(14.7% 0.004 49.25);
 
   --card-foreground: oklch(0.985 0.001 106.423);
 
-  --popover: oklch(0.216 0.006 56.043);
+  --popover: oklch(14.7% 0.004 49.25);
 
   --popover-foreground: oklch(0.985 0.001 106.423);
 
   --primary: oklch(0.923 0.003 48.717);
 
-  --primary-foreground: oklch(0.216 0.006 56.043);
+  --primary-foreground: oklch(14.7% 0.004 49.25);
 
   --secondary: oklch(0.268 0.007 34.298);
 
@@ -192,7 +204,7 @@
 
   --chart-5: oklch(0.645 0.246 16.439);
 
-  --sidebar: oklch(0.216 0.006 56.043);
+  --sidebar: oklch(14.7% 0.004 49.25);
 
   --sidebar-foreground: oklch(0.985 0.001 106.423);
 
@@ -215,5 +227,59 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {  
+  .prose h1 {
+    @apply text-3xl tracking-tight font-sans text-white dark:text-stone-950;
+  }
+  
+  .prose h2 {
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 font-sans;
+  }
+  
+  .prose h3 {
+    @apply scroll-m-20 text-2xl font-semibold tracking-tight;
+  }
+  
+  .prose p {
+    @apply leading-7 [&:not(:first-child)]:mt-6;
+  }
+  
+  .prose ul {
+    @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  }
+  
+  .prose ol {
+    @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  }
+  
+  .prose blockquote {
+    @apply mt-6 border-l-2 pl-6 italic;
+  }
+  
+  .prose code {
+    @apply bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
+  }
+  
+  .prose pre {
+    @apply bg-stone-100 dark:bg-stone-800 p-4 rounded-lg overflow-x-auto mb-4;
+  }
+  
+  .prose pre code {
+    @apply bg-transparent px-0 py-0;
+  }
+  
+  .prose a {
+    @apply text-blue-600 dark:text-blue-400 hover:underline;
+  }
+  
+  .prose strong {
+    @apply font-bold text-stone-900 dark:text-white;
+  }
+  
+  .prose hr {
+    @apply border-stone-300 dark:border-stone-600 my-8;
   }
 }
