@@ -8,9 +8,9 @@ import { Calendar } from 'lucide-react';
 import { Tag } from '@/components/work-experience';
 
 interface BlogPostProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -69,7 +69,7 @@ async function BlogPost({ params }: BlogPostProps) {
                 </ul>
                 <p className='ml-4 font-mono text-muted-foreground'>By Lucas Garzuze Cordeiro</p>
               </div>
-              <MySeparator/>
+              <MySeparator />
               <div className="prose dark:prose-invert prose-headings:font-[Inter] prose-h1:font-semibold prose-h1:mb-0 mt-6">
                 <Markdown>{post.content}</Markdown>
               </div>
