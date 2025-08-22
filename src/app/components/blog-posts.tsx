@@ -42,7 +42,6 @@ const BlogPosts = () => {
 				)}
 				{posts.length >= 4 && (
 					<div className="col-span-2 relative border-stone-200 dark:border-stone-900">
-						<MySeparator />
 						<div className="flex items-center justify-center py-2">
 							<Link href="/blog">
 								<Button variant="outline" size="sm" className="cursor-pointer">

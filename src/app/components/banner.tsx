@@ -6,8 +6,8 @@ const Banner = () => {
       <Image
         src="/images/fog_croped.jpg"
         alt="Banner image"
-        width={1080}
-        height={288}
+        width={2327}
+        height={1164}
         className="h-full w-full object-cover object-center"
       />
     </div>

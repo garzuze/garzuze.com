@@ -48,7 +48,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
   {
     id: '3',
     companyName: 'MBK GSE',
-    companyLogo: '/images/logo_mbk_contabilidade.avif',
+    companyLogo: '/images/mbk.jpg',
     isCurrentEmployer: false,
     positions: [
       {

@@ -7,8 +7,8 @@ const Profile = () => {
         <Image
           src="/images/avatar.jpg"
           alt="Avatar image"
-          width={777}
-          height={777}
+          width={1557}
+          height={1558}
           className="mx-auto bg-cover rounded-full border border-stone-200 dark:border-stone-900"
         />
       </div>
