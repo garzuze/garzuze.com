@@ -44,7 +44,7 @@ async function BlogPost({ params }: BlogPostProps) {
 
   return (
     <div>
-      <Header />
+      <Header page={'blog'} />
       <main className="mx-auto md:max-w-3xl mt-16 overflow-hidden">
         <BigSeparator />
         <article>
@@ -57,17 +57,19 @@ async function BlogPost({ params }: BlogPostProps) {
                 <h3 className='scroll-m-20 text-2xl tracking-tight text-stone-800 dark:text-stone-200 font-mono'>{post.excerpt}</h3>
               </div>
               <MySeparator />
-              <div className="flex items-center text-stone-500">
-                <Calendar size={16} className="mr-2" />
-                {new Date(post.date).toLocaleDateString()}
-                <ul className="flex py-2 ml-4">
+              <div className="sm:flex sm:mt-2 items-center text-stone-500">
+                <div className="flex items-center">
+                  <Calendar size={16} className="mr-2" />
+                  {new Date(post.date).toLocaleDateString()}
+                </div>
+                <ul className="flex py-2 sm:ml-4">
                   <li className="flex gap-1.5">
                     {post.tags?.map((tag) => (
                       <Tag key={tag}>{tag}</Tag>
                     ))}
                   </li>
                 </ul>
-                <p className='ml-4 font-mono text-muted-foreground'>By Lucas Garzuze Cordeiro</p>
+                <p className='sm:ml-4 font-mono text-muted-foreground'>By Lucas Garzuze Cordeiro</p>
               </div>
               <MySeparator />
               <div className="prose dark:prose-invert prose-headings:font-[Inter] prose-h1:font-semibold prose-h1:mb-0 mt-6">

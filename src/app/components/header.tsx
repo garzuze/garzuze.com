@@ -5,7 +5,11 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { ThemeSwitcher } from '@/components/theme-switcher';
 
-export default function Header() {
+interface HeaderProps {
+  page: string
+}
+
+export default function Header({page}: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const navItems = [
     { href: '/', label: 'main()' },
@@ -22,13 +26,12 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 font-mono [&>*:first-child]:font-bold dark:[&>*:first-child]:text-white [&>*:first-child]:text-black">
+          <nav className="hidden md:flex items-center space-x-8 font-mono">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors"
-              >
+                className={`text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors ${item.label === page && "font-bold dark:text-white text-black"}`}>
                 {item.label}
               </Link>
             ))}

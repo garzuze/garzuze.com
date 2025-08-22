@@ -8,7 +8,7 @@ const BlogPage = () => {
   const posts = getAllPosts();
   return (
     <>
-      <Header />
+      <Header page="blog"/>
       <main className="mx-auto md:max-w-3xl mt-16 overflow-hidden">
         <div className="px-[23px] border-stone-200 border-x dark:border-stone-900">
         <div className="gap-4 grid grid-cols-2 border-stone-200 border-x dark:border-stone-900 w-[calc(100%+1px)] h-6">
