@@ -30,7 +30,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
   {
     id: '2',
     companyName: 'Freelance, Self-employed',
-    companyLogo: 'images/self_employed.png',
+    companyLogo: 'images/self_employed.webp',
     isCurrentEmployer: false,
     positions: [
       {
@@ -48,7 +48,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
   {
     id: '3',
     companyName: 'MBK GSE',
-    companyLogo: '/images/mbk.jpg',
+    companyLogo: '/images/mbk.webp',
     isCurrentEmployer: false,
     positions: [
       {

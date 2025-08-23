@@ -4,7 +4,7 @@ date: '2025-08-22'
 excerpt: First things first
 tags: ['DSA', 'Algorithms','C']
 author: lucas
-image: /images/blog/learning_c.jpg
+image: /images/blog/learning_c.webp
 ---
 ## show de bola
 ### legal mesmo

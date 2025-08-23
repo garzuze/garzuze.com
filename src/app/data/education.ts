@@ -4,7 +4,7 @@ export const EDUCATION: ExperienceItemType[] = [
   {
     id: '1',
     companyName: 'UFPR - Federal University of Paraná',
-    companyLogo: '/images/ufpr.jpg',
+    companyLogo: '/images/ufpr.webp',
     isCurrentEmployer: true,
     positions: [
       {
@@ -27,7 +27,7 @@ export const EDUCATION: ExperienceItemType[] = [
   {
     id: '2',
     companyName: 'IFPR - Federal Institute of Paraná',
-    companyLogo: 'images/ifpr.jpg',
+    companyLogo: 'images/ifpr.webp',
     isCurrentEmployer: false,
     positions: [
       {

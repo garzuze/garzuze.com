@@ -16,14 +16,14 @@ const Projects = () => {
         <div className="sm:w-[calc(100%+1px)] border-b sm:border-b-0 col-span-2 sm:col-span-1 py-4 sm:py-0 sm:border-r border-stone-200 dark:border-stone-900 grid px-[24px] group group-hover:bg-stone-950 cursor-pointer">
           <div className="mt-2">
             <Image
-              src="/images/mlrh-light.png"
+              src="/images/mlrh-light.webp"
               width={1920}
               height={1080}
               alt="MLRH logo"
               className="border border-stone-200 dark:border-stone-900 rounded-sm dark:hidden block group"
             />
             <Image
-              src="/images/mlrh.png"
+              src="/images/mlrh.webp"
               width={1920}
               height={1080}
               alt="MLRH logo"
@@ -43,14 +43,14 @@ const Projects = () => {
         <div className="sm:border-l py-4 sm:py-0 border-stone-200 col-span-2 sm:col-span-1 dark:border-stone-900 grid px-[24px] group cursor-pointer">
           <div className="mt-2">
             <Image
-              src="/images/sepais-light.png"
+              src="/images/sepais-light.webp"
               width={1920}
               height={1080}
               alt="Sepais' logo"
               className="border border-stone-200 dark:border-stone-900 rounded-sm dark:hidden block"
             />
             <Image
-              src="/images/sepais.png"
+              src="/images/sepais.webp"
               width={1920}
               height={1080}
               alt="Sepais' logo"

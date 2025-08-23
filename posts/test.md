@@ -4,7 +4,7 @@ date: 2025-08-21
 slug: test
 tags: [CS, Sets, Teaching]
 author: lucas
-image: /images/blog/theater.jpg
+image: /images/blog/theater.webp
 ---
 
 ### isso é apenas um teste
