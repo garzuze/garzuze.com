@@ -12,7 +12,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
         title: 'Full Stack Developer',
         employmentPeriod: 'Aug 2025 - Present',
         description:
-          'Working with cutting-edge JavaScript technologies in various projects.',
+          '- Working with cutting-edge JavaScript technologies in various projects.\n- Learning and applying SOLID and Clean Architecture principles.',
         icon: 'code',
         skills: [
           'Next',
@@ -36,7 +36,6 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
       {
         id: '2-1',
         title: 'Independent Software Developer',
-        employmentType: 'Full-time',
         employmentPeriod: 'Jun 2024 - Jul 2025',
         description: `- Developed conversion-optimized Landing Pages using JavaScript and TailwindCSS.\n- Created an integrated software for HR that centralizes Sales, R&S, and Finance in a unified interface.\n- Enhanced skills in Algorithms and Data Structures with Python and C.\n`,
         icon: 'code',
