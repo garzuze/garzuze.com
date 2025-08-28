@@ -3,6 +3,7 @@ import Banner from './components/banner';
 import BigSeparator from './components/big-separator';
 import BlogPosts from './components/blog-posts';
 import Education from './components/education';
+import Footer from './components/footer';
 import Header from './components/header';
 import MySeparator from './components/my-separator';
 import Profile from './components/profile';
@@ -39,6 +40,8 @@ export default function Home() {
         <Projects />
         <BigSeparator />
         <Skills />
+        <BigSeparator />
+        <Footer/>
         <BigSeparator />
       </main>
     </div>
