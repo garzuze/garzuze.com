@@ -28,7 +28,7 @@ const Topics = () => {
             aria-hidden="true">
             <GraduationCapIcon size={16} />
           </div>
-          <p className="text-balance">Student @<a className="underline-offset-4 hover:underline" href="https://chanhdai.com"
+          <p className="text-balance">Student @<a className="underline-offset-4 hover:underline" href="https://ufpr.br"
             target="_blank" rel="noopener noreferrer">UFPR</a></p>
         </div>
         <div className="flex items-center gap-4 font-mono">

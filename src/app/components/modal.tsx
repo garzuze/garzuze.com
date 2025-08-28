@@ -53,7 +53,7 @@ const ServiceModal = ({ isOpen, onClose, project }: ProjectModal) => {
                 <ul className="space-y-3">
                   {project.bullets.map((bullet, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="flex-shrink-0 w-6 h-6 bg-blue-950 text-white rounded-full flex items-center justify-center text-sm font-medium mr-3 mt-0.5">
+                      <span className="flex-shrink-0 w-6 h-6 bg-[#b1c7e6] dark:bg-[#718396] rounded-full flex items-center justify-center text-sm font-medium mr-3 mt-0.5">
                         {index + 1}
                       </span>
                       <span className="leading-relaxed">
@@ -69,7 +69,7 @@ const ServiceModal = ({ isOpen, onClose, project }: ProjectModal) => {
           {/* Modal footer */}
           <div className="flex justify-end p-6 border-t border-stone-200 dark:border-stone-900">
             <Button className="cursor-pointer" onClick={onClose}>
-              Fechar
+              Close
             </Button>
           </div>
         </div>
