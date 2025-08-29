@@ -11,7 +11,6 @@ const Projects = () => {
 
   const openModal = (project: string) => {
     setSelectedProject(PROJECTS[project]);
-    console.log(PROJECTS[project])
   }
 
   const closeModal = () => {

@@ -19,7 +19,7 @@ const Topics = () => {
             aria-hidden="true">
             <LightbulbIcon size={16} />
           </div>
-          <p className="text-balance">Createor of <a className="ml-0.5 font-medium underline-offset-4 hover:underline"
+          <p className="text-balance">Creator of <a className="ml-0.5 font-medium underline-offset-4 hover:underline"
             href="https://mlrh.com.br"
             target="_blank" rel="noopener">MLRH System</a></p>
         </div>
