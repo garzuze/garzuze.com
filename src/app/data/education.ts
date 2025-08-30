@@ -12,7 +12,7 @@ export const EDUCATION: ExperienceItemType[] = [
         title: 'Analysis and Systems Development, Computer Science',
         employmentType: 'Bachelors',
         employmentPeriod: 'Mar 2025 - Present',
-        description: `- Admitted in [first place](https://servicos.nc.ufpr.br/documentos/ps2025/resultado/2fase/concorrencia/077_00.html) in the Entrance Exam.\n- Invited to deliver a talk about sets thoery applied to Computer Science.`,
+        description: `- Admitted in [first place](https://servicos.nc.ufpr.br/documentos/ps2025/resultado/2fase/concorrencia/077_00.html) in the Entrance Exam.\n- Invited to deliver a talk about sets theory applied to Computer Science.`,
         icon: 'education',
         skills: [
           'Algorithms',
@@ -35,7 +35,7 @@ export const EDUCATION: ExperienceItemType[] = [
         title: 'Technical High School in Computer Science',
         employmentType: 'Technical High School',
         employmentPeriod: 'Mar 2021 - Dec 2024',
-        description: `- Capstone Project awarded Best Oral Presentation at the SEPIN academic event.\n- Awarded a scholarship for an academic writing project, assisting peers in improving their writing.\n- Team placed 4th in a Hackathon promoted by Stellantis.\n- Wonthe JAStartup project, promoted by KPMG, by developing a sustainability-focused startup.\n- Personal website awarded 3rd place in a Web Development Bootcamp.\n- Deepened knowledge in operating systems, web development, databases, and networks.`,
+        description: `- Capstone Project awarded Best Oral Presentation at the SEPIN academic event.\n- Awarded a scholarship for an academic writing project, assisting peers in improving their writing.\n- Team placed 4th in a Hackathon promoted by Stellantis.\n- Won the JAStartup project, promoted by KPMG, by developing a sustainability-focused startup.\n- Personal website awarded 3rd place in a Web Development Bo otcamp.\n- Deepened knowledge in operating systems, web development, databases, and networks.`,
         icon: 'education',
         skills: [
           'Databases',
