@@ -12,9 +12,9 @@ export const EDUCATION: ExperienceItemType[] = [
         title: 'Analysis and Systems Development, Computer Science',
         employmentType: 'Bachelors',
         employmentPeriod: 'Mar 2025 - Present',
-        description: `- Admitted in [first place](https://servicos.nc.ufpr.br/documentos/ps2025/resultado/2fase/concorrencia/077_00.html) in the Entrance Exam.\n- Invited to deliver a talk about sets theory applied to Computer Science.`,
+        description: `- Admitted in [first place](https://servicos.nc.ufpr.br/documentos/ps2025/resultado/2fase/concorrencia/077_00.html) in the Entrance Exam.\n- Invited to deliver a talk about sets theory applied to Computer Science.\n- Researcher at a project about gamification.\n- Volunteer in a program that provides computer classes to immigrants.`,
         icon: 'education',
-        skills: [
+        skills: [ 
           'Algorithms',
           'Computer Networks',
           'Computer Architecture',
