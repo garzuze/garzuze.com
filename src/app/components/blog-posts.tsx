@@ -20,7 +20,7 @@ const BlogPosts = () => {
 			<MySeparator />
 			<div className="gap-x-[48px] grid grid-cols-2 border-stone-200 dark:border-stone-900 w-[calc(100%+1px)]">
 				{posts.length === 0 ? (
-					<p>Vish nenhum post mano</p>
+					<p>Coming soon...</p>
 				) : (
 					posts.slice(0, 4).map((post, index) => (
 						<React.Fragment key={post.slug}>
