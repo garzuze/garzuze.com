@@ -41,14 +41,6 @@ const Topics = () => {
         <div className="flex items-center gap-4 font-mono">
           <div className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-[#b1c7e6] dark:bg-[#718396] dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
             aria-hidden="true">
-            <PhoneIcon size={16} />
-          </div>
-          <p className="text-balance"><a className="underline-offset-4 hover:underline" href="tel:+5541995149971"
-            target="_blank" rel="noopener noreferrer">+55 (41) 99514-9971</a></p>
-        </div>
-        <div className="flex items-center gap-4 font-mono">
-          <div className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-[#b1c7e6] dark:bg-[#718396] dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
-            aria-hidden="true">
             <Mail size={16} />
           </div>
           <p className="text-balance"><a className="underline-offset-4 hover:underline" href="mailto:lucas@garzuze.com"
