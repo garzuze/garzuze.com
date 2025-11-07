@@ -12,7 +12,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
         title: 'Full Stack Developer',
         employmentPeriod: 'Jul 2025 - Present',
         description:
-          '- Implemented a semantic cache service with **Redis** and **OpenAi** embeddings API, which reuses responses from semantically similar queries, reducing token usage and response time in interactions with **LLMs APIs** in 30\%.\n- Contributed, applying Clean Architecture and SOLID principles, to the development of a container monitoring system, used by the international purchases sector, with TypeScript, Nest and React.',
+          '- Implemented a semantic cache service with **Redis** and **OpenAi** embeddings API, which reuses responses from semantically similar queries, reducing token usage and response time in interactions with **LLMs APIs** in 30%.\n- Contributed, applying Clean Architecture and SOLID principles, to the development of a container monitoring system, used by the international purchases sector, with TypeScript, Nest and React.',
         icon: 'code',
         skills: [
           'React',

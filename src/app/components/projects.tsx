@@ -1,21 +1,21 @@
-'use client'
+'use client';
 import Image from 'next/image';
-import MySeparator from './my-separator';
 import { useState } from 'react';
-import Modal from './modal';
 import { PROJECTS } from '../data/projects';
 import { Project } from '../types/Project';
+import Modal from './modal';
+import MySeparator from './my-separator';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const openModal = (project: string) => {
     setSelectedProject(PROJECTS[project]);
-  }
+  };
 
   const closeModal = () => {
     setSelectedProject(null);
-  }
+  };
 
   return (
     <>
@@ -28,8 +28,11 @@ const Projects = () => {
         <MySeparator />
         <div className="w-[calc(100%+1px)] border-x border-stone-200 dark:border-stone-900 grid grid-cols-2 gap-4 h-6"></div>
         <MySeparator />
-        <div className="w-[calc(100%+1px)] border-x border-stone-200 dark:border-stone-900 grid grid-cols-2 gap-x-[48px] sm:h-64" >
-          <div className="sm:w-[calc(100%+1px)] border-b sm:border-b-0 col-span-2 sm:col-span-1 py-4 sm:py-0 sm:border-r border-stone-200 dark:border-stone-900 grid px-[24px] cursor-pointer" onClick={() => openModal('mlrh')}>
+        <div className="w-[calc(100%+1px)] border-x border-stone-200 dark:border-stone-900 grid grid-cols-2 gap-x-[48px] sm:h-64">
+          <div
+            className="sm:w-[calc(100%+1px)] border-b sm:border-b-0 col-span-2 sm:col-span-1 py-4 sm:py-0 sm:border-r border-stone-200 dark:border-stone-900 grid px-[24px] cursor-pointer"
+            onClick={() => openModal('mlrh')}
+          >
             <div className="mt-2">
               <Image
                 src="/images/mlrh-light.webp"
@@ -56,7 +59,10 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="sm:border-l py-4 sm:py-0 border-stone-200 col-span-2 sm:col-span-1 dark:border-stone-900 grid px-[24px] cursor-pointer" onClick={() => openModal('sepais')}>
+          <div
+            className="sm:border-l py-4 sm:py-0 border-stone-200 col-span-2 sm:col-span-1 dark:border-stone-900 grid px-[24px] cursor-pointer"
+            onClick={() => openModal('sepais')}
+          >
             <div className="mt-2">
               <Image
                 src="/images/sepais-light.webp"
