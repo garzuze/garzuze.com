@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="h-40 sm:h-52 border-x border-stone-200 dark:border-stone-900">
       <Image
-        src="/images/fog_croped.webp"
+        src="/images/garden.webp"
         alt="Banner image"
         width={2327}
         height={1164}
