@@ -12,7 +12,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
         title: 'Full Stack Developer',
         employmentPeriod: 'Jul 2025 - Present',
         description:
-          '- Implemented a semantic cache service with **Redis** and **OpenAi** embeddings API, which reuses responses from semantically similar queries, reducing token usage and response time in interactions with **LLMs APIs** in 30%.\n- Contributed, applying Clean Architecture and SOLID principles, to the development of a container monitoring system, used by the international purchases sector, with TypeScript, Nest and React.',
+          '- Implemented a semantic cache service with **Redis** and **OpenAi** embeddings API, which reuses responses from semantically similar queries, reducing token usage and response time in interactions with **LLMs APIs**.\n- Contributed, applying Clean Architecture and SOLID principles, to the development of a container monitoring system, used by the international purchases sector, with TypeScript, Nest and React.',
         icon: 'code',
         skills: [
           'React',
@@ -54,7 +54,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
         id: '3-1',
         title: 'Python Developer',
         employmentPeriod: 'Oct 2023 - May 2024',
-        description: `- Developed a Django system for clients to access their files, improving user experience.\n- mplemented a system for automatic file organization and email sending, reducing the time spent in repetitive tasks in about 50%.`,
+        description: `- Developed a Django system for clients to access their files, improving user experience.\n- Implemented a system for automatic file organization and email sending, reducing the time spent in repetitive tasks in about 50%.`,
         icon: 'code',
         skills: ['JavaScript', 'Python', 'Django'],
         isExpanded: true,

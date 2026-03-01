@@ -11,7 +11,7 @@ const AboutMe = () => {
       <p className="leading-7 mt-6">
         Despite my young age I&apos;ve been building since 2021, when I had my
         first contact with coding at high school. Since then, I&apos;ve been
-        improving my problem solving skills and contributing to different
+        improving my problem-solving skills and contributing to different
         projects.
       </p>
       <p className="leading-7 mt-6">
