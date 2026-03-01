@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { ThemeSwitcher } from '@/components/theme-switcher';
 
 interface HeaderProps {
-  page: string
+  page: string;
 }
 
 export default function Header({ page }: HeaderProps) {
@@ -21,7 +21,12 @@ export default function Header({ page }: HeaderProps) {
     <header className="fixed w-full top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900 sm:shadow-md">
       <div className="mx-auto md:max-w-3xl p-4 border-x border-stone-200 dark:border-stone-900">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold w-32" onMouseEnter={() => setHeaderText('غرزوز')} onMouseLeave={() => setHeaderText('garzuze')}>
+          <Link
+            href="/"
+            className="text-2xl font-bold w-32"
+            onMouseEnter={() => setHeaderText('غرزوز')}
+            onMouseLeave={() => setHeaderText('garzuze')}
+          >
             {headerText}
           </Link>
 
@@ -31,7 +36,8 @@ export default function Header({ page }: HeaderProps) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors ${item.label === page && "font-bold dark:text-white text-stone-900"}`}>
+                className={`text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors ${item.label === page && 'font-bold dark:text-white text-stone-900'}`}
+              >
                 {item.label}
               </Link>
             ))}
@@ -54,16 +60,17 @@ export default function Header({ page }: HeaderProps) {
         {/* Mobile Navigation */}
         <nav
           className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out bg-white dark:bg-stone-950 shadow-2xl font-mono
-            ${isMenuOpen
-              ? 'opacity-100 translate-y-0 pointer-events-auto'
-              : 'opacity-0 -translate-y-2 pointer-events-none'
+            ${
+              isMenuOpen
+                ? 'opacity-100 translate-y-0 pointer-events-auto'
+                : 'opacity-0 -translate-y-2 pointer-events-none'
             }`}
         >
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`block py-2 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors ml-6 ${item.label === page && "font-bold dark:text-white text-stone-900"}`}
+              className={`block py-2 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white transition-colors ml-6 ${item.label === page && 'font-bold dark:text-white text-stone-900'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {item.label}

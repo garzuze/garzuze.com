@@ -54,7 +54,9 @@ async function BlogPost({ params }: BlogPostProps) {
                 {post.title}
               </h2>
               <div className="pb-2">
-                <h3 className='scroll-m-20 text-2xl tracking-tight text-stone-800 dark:text-stone-200 font-mono'>{post.excerpt}</h3>
+                <h3 className="scroll-m-20 text-2xl tracking-tight text-stone-800 dark:text-stone-200 font-mono">
+                  {post.excerpt}
+                </h3>
               </div>
               <MySeparator />
               <div className="sm:flex sm:mt-2 items-center text-stone-500">
@@ -69,7 +71,9 @@ async function BlogPost({ params }: BlogPostProps) {
                     ))}
                   </li>
                 </ul>
-                <p className='sm:ml-4 font-mono text-muted-foreground'>By Lucas Garzuze Cordeiro</p>
+                <p className="sm:ml-4 font-mono text-muted-foreground">
+                  By Lucas Garzuze Cordeiro
+                </p>
               </div>
               <MySeparator />
               <div className="prose dark:prose-invert prose-headings:font-[Inter] prose-h1:font-semibold prose-h1:mb-0 mt-6">
@@ -80,7 +84,7 @@ async function BlogPost({ params }: BlogPostProps) {
           <MySeparator />
         </article>
       </main>
-    </div >
+    </div>
   );
 }
 

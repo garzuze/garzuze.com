@@ -26,8 +26,10 @@ const Profile = () => {
                 <p className="sm:text-sm text-xs items-center sm:px-4 px-1 text-gray-500 dark:text-gray-300 font-mono">
                   <a
                     className="underline-offset-4 hover:underline"
-                    target="_blank" rel="noopener noreferrer"
-                    href="https://youtu.be/Kbj2Zss-5GY?si=yG1eZ9j4ImKtNvIa&t=76">
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://youtu.be/Kbj2Zss-5GY?si=yG1eZ9j4ImKtNvIa&t=76"
+                  >
                     Create, explore, expand, conquer.
                   </a>
                 </p>

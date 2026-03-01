@@ -7,9 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": [
-      "**"
-    ]
+    "includes": ["**"]
   },
   "formatter": {
     "enabled": true,
@@ -267,22 +265,14 @@
     "formatter": {
       "quoteStyle": "single"
     },
-    "globals": [
-      "Atomics",
-      "SharedArrayBuffer"
-    ],
+    "globals": ["Atomics", "SharedArrayBuffer"],
     "parser": {
       "unsafeParameterDecoratorsEnabled": true
     }
   },
   "overrides": [
     {
-      "includes": [
-        "**/*.ts",
-        "**/*.tsx",
-        "**/*.mts",
-        "**/*.cts"
-      ],
+      "includes": ["**/*.ts", "**/*.tsx", "**/*.mts", "**/*.cts"],
       "linter": {
         "rules": {
           "correctness": {
