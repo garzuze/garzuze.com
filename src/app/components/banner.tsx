@@ -1,15 +1,9 @@
-import Image from 'next/image';
+import AnimatedGradient from '@/components/animated-gradient';
 
 const Banner = () => {
   return (
-    <div className="h-40 sm:h-52 border-x border-stone-200 dark:border-stone-900">
-      <Image
-        src="/images/garden.webp"
-        alt="Banner image"
-        width={2327}
-        height={1164}
-        className="h-full w-full object-cover object-center"
-      />
+    <div className="h-40 sm:h-52 border-x border-stone-200 dark:border-stone-900 relative    flex items-center justify-center">
+      <AnimatedGradient style={{ zIndex: 0 }} config={{ preset: 'Vortex' }} />
     </div>
   );
 };
