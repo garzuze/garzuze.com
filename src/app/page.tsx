@@ -16,7 +16,7 @@ import WorkXP from './components/work-experience';
 
 export default function Home() {
   return (
-    <div className="text-stone-900 dark:text-white bg-white/80 dark:bg-stone-950/80 overflow-hidden">
+    <div className="text-stone-900 dark:text-white bg-white/80 dark:bg-black overflow-hidden">
       <Header page="main()" />
       <main className="mx-auto md:max-w-3xl mt-16">
         <Banner />

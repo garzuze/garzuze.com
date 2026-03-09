@@ -81,7 +81,7 @@ function ThemeSwitcher({ id }: { id: string }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="inline-flex items-center z-[100] overflow-hidden rounded-full bg-white ring-1 ring-stone-200 ring-inset dark:bg-stone-950 dark:ring-stone-700"
+      className="inline-flex items-center z-[100] overflow-hidden rounded-full bg-white ring-1 ring-stone-200 ring-inset dark:bg-black dark:ring-stone-700"
       role="radiogroup"
     >
       {THEME_OPTIONS.map((option) => (

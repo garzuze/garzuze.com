@@ -13,8 +13,8 @@ const Profile = () => {
         />
       </div>
       <div className="w-full">
-        <div className="w-full h-1/2 bg-stone-200 dark:bg-stone-900">
-          <div className="h-full w-full bg-white/80 dark:bg-stone-950 bg-[linear-gradient(to_right,#e7e5e4_1px,transparent_1px),linear-gradient(to_bottom,#e7e5e4_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#1c1917_1px,transparent_1px),linear-gradient(to_bottom,#1c1917_1px,transparent_1px)] bg-[size:24px_24px] bg-[position:-1px_-1px]" />
+        <div className="w-full h-1/2 bg-stone-200 dark:bg-black">
+          <div className="h-full w-full bg-white/80 dark:bg-black bg-[linear-gradient(to_right,#e7e5e4_1px,transparent_1px),linear-gradient(to_bottom,#e7e5e4_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#1c1917_1px,transparent_1px),linear-gradient(to_bottom,#1c1917_1px,transparent_1px)] bg-[size:24px_24px] bg-[position:-1px_-1px]" />
         </div>
         <div className="items-end w-full h-1/2">
           <div className="w-full h-full flex items-center">

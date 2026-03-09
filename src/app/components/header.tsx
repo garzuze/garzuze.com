@@ -18,7 +18,7 @@ export default function Header({ page }: HeaderProps) {
   ];
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900 sm:shadow-md">
+    <header className="fixed w-full top-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-stone-200 dark:border-stone-900 sm:shadow-md">
       <div className="mx-auto md:max-w-3xl p-4 border-x border-stone-200 dark:border-stone-900">
         <div className="flex items-center justify-between">
           <Link
@@ -59,7 +59,7 @@ export default function Header({ page }: HeaderProps) {
 
         {/* Mobile Navigation */}
         <nav
-          className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out bg-white dark:bg-stone-950 shadow-2xl font-mono
+          className={`fixed left-0 w-full md:hidden mt-4 pb-4 transform transition-all duration-300 ease-in-out bg-white dark:bg-black shadow-2xl font-mono
             ${
               isMenuOpen
                 ? 'opacity-100 translate-y-0 pointer-events-auto'

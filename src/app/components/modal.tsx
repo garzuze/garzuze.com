@@ -24,7 +24,7 @@ const ServiceModal = ({ isOpen, onClose, project }: ProjectModal) => {
       {/* Modal container with slide-in animation */}
       <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
         <div
-          className={`bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-900 shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto transform transition-all duration-300 ${
+          className={`bg-white dark:bg-black border border-stone-200 dark:border-stone-900 shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto transform transition-all duration-300 ${
             isOpen ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
           }`}
         >
