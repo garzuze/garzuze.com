@@ -57,7 +57,7 @@ const ServiceModal = ({ isOpen, onClose, project }: ProjectModal) => {
                 <ul className="space-y-3">
                   {project.bullets.map((bullet, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="flex-shrink-0 w-6 h-6 bg-lime-100 dark:bg-lime-700 rounded-full flex items-center justify-center text-sm font-medium mr-3 mt-0.5">
+                      <span className="flex-shrink-0 w-6 h-6 bg-indigo-100 dark:bg-indigo-700 rounded-full flex items-center justify-center text-sm font-medium mr-3 mt-0.5">
                         {index + 1}
                       </span>
                       <span className="leading-relaxed">{bullet}</span>

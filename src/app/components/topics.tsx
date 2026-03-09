@@ -15,7 +15,7 @@ const Topics = () => {
       <div data-slot="panel-body" className="p-4 space-y-2">
         <div className="flex items-center gap-4 font-mono">
           <div
-            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-lime-100 dark:bg-lime-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
             aria-hidden="true"
           >
             <CodeXmlIcon size={16} />
@@ -34,7 +34,7 @@ const Topics = () => {
         </div>
         <div className="flex items-center gap-4 font-mono">
           <div
-            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-lime-100 dark:bg-lime-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
             aria-hidden="true"
           >
             <LightbulbIcon size={16} />
@@ -53,7 +53,7 @@ const Topics = () => {
         </div>
         <div className="flex items-center gap-4 font-mono">
           <div
-            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-lime-100 dark:bg-lime-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
             aria-hidden="true"
           >
             <GraduationCapIcon size={16} />
@@ -72,7 +72,7 @@ const Topics = () => {
         </div>
         <div className="flex items-center gap-4 font-mono">
           <div
-            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-lime-100 dark:bg-lime-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
             aria-hidden="true"
           >
             <PinIcon size={16} />
@@ -81,7 +81,7 @@ const Topics = () => {
         </div>
         <div className="flex items-center gap-4 font-mono">
           <div
-            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-lime-100 dark:bg-lime-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
             aria-hidden="true"
           >
             <Mail size={16} />

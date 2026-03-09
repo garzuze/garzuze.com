@@ -140,7 +140,7 @@ export function ExperiencePositionItem({
         <CollapsibleTrigger className="group/experience not-prose block w-full text-left select-none">
           <div className="relative z-1 mb-1 flex items-center gap-3 bg-background">
             <div
-              className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-lime-100 dark:bg-lime-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+              className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
               aria-hidden
             >
               <ExperienceIcon className="size-4" />
