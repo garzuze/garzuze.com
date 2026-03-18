@@ -12,7 +12,7 @@ export const EDUCATION: ExperienceItemType[] = [
         title: 'Systems Analysis and Development, Computer Science',
         employmentType: 'Bachelors',
         employmentPeriod: 'Mar 2025 - Present',
-        description: `- Admitted in [first place](https://servicos.nc.ufpr.br/documentos/ps2025/resultado/2fase/concorrencia/077_00.html) in the Entrance Exam.\n- Invited to deliver a talk about sets theory applied to Computer Science.\n- Researcher at a project about gamification.\n- Volunteer in a program that provides computer classes to immigrants.`,
+        description: `- Admitted in [first place](https://servicos.nc.ufpr.br/documentos/ps2025/resultado/2fase/concorrencia/077_00.html) in the Entrance Exam.\n- Invited to deliver a talk about sets theory applied to Computer Science.\n- Researcher at a project about gamification.\n- Volunteer in a program that provides computer classes to immigrants.\n- Backend Developer for a project about computational solutions applied to health and aging.\n- PUC-PR Hacking Club member, a tech group focused in Data Structures and Algorithms studies.`,
         icon: 'education',
         skills: [
           'Algorithms',
@@ -35,7 +35,7 @@ export const EDUCATION: ExperienceItemType[] = [
         title: 'Technical High School in Computer Science',
         employmentType: 'Technical High School',
         employmentPeriod: 'Mar 2021 - Dec 2024',
-        description: `- Capstone Project awarded Best Oral Presentation at the SEPIN academic event.\n- Awarded a scholarship for an academic writing project, assisting peers in improving their writing.\n- Team placed 4th in a Hackathon promoted by Stellantis.\n- Won the JAStartup project, promoted by KPMG, by developing a sustainability-focused startup.\n- Personal website awarded 3rd place in a Web Development Bo otcamp.\n- Deepened knowledge in operating systems, web development, databases, and networks.`,
+        description: `- Was elected as the class speaker at graduation ceremony.\n- Capstone Project awarded Best Oral Presentation at the SEPIN academic event.\n- Awarded a scholarship for an academic writing project, assisting peers in improving their writing.\n- Team placed 4th in a Hackathon promoted by Stellantis.\n- Won the JAStartup project, promoted by KPMG, by developing a sustainability-focused startup.\n- Personal website awarded 3rd place in a Web Development Bootcamp.\n- Deepened knowledge in operating systems, web development, databases, and networks.`,
         icon: 'education',
         skills: [
           'Databases',
