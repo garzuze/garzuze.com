@@ -21,14 +21,14 @@ const Topics = () => {
             <CodeXmlIcon size={16} />
           </div>
           <p className="text-balance">
-            FullStack Developer @
+            Software Engineer @
             <a
               className="ml-0.5 font-medium underline-offset-4 hover:underline"
-              href="https://britania.com.br"
+              href="https://banco.bradesco/html/classic/index.shtm"
               target="_blank"
               rel="noopener"
             >
-              Britânia
+              Bradesco
             </a>
           </p>
         </div>
@@ -59,7 +59,7 @@ const Topics = () => {
             <GraduationCapIcon size={16} />
           </div>
           <p className="text-balance">
-            Student @
+            Undergrad & Research Assistant @
             <a
               className="underline-offset-4 hover:underline"
               href="https://ufpr.br"
