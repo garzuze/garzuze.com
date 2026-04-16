@@ -8,7 +8,6 @@ import Header from './components/header';
 import MySeparator from './components/my-separator';
 import Profile from './components/profile';
 import Projects from './components/projects';
-import Skills from './components/skills';
 import Socials from './components/socials';
 import TechStack from './components/tech-stack';
 import Topics from './components/topics';
@@ -38,8 +37,6 @@ export default function Home() {
         <BlogPosts />
         <BigSeparator />
         <Projects />
-        <BigSeparator />
-        <Skills />
         <BigSeparator />
         <Footer />
         <BigSeparator />
