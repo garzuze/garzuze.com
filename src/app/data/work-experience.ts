@@ -3,14 +3,29 @@ import { ExperienceItemType } from '@/components/work-experience';
 export const WORK_EXPERIENCE: ExperienceItemType[] = [
   {
     id: '1',
-    companyName: 'Britânia',
-    companyLogo: '/images/britania.webp',
+    companyName: 'Bradesco',
+    companyLogo: '/images/bradesco.webp',
     isCurrentEmployer: true,
     positions: [
       {
         id: '1-1',
+        title: 'Software Engineer',
+         employmentPeriod: 'Apr 2026 - Present',
+        icon: 'code',
+        skills: ['Java', 'SOLID']
+      }
+    ]
+  },
+  {
+    id: '2',
+    companyName: 'Britânia',
+    companyLogo: '/images/britania.webp',
+    isCurrentEmployer: false,
+    positions: [
+      {
+        id: '2-1',
         title: 'Full Stack Developer',
-        employmentPeriod: 'Jul 2025 - Present',
+        employmentPeriod: 'Jul 2025 - Mar 2026',
         description:
           '- Implemented a semantic cache service with **Redis** and **OpenAi** embeddings API, which reuses responses from semantically similar queries, reducing token usage and response time in interactions with **LLMs APIs**.\n- Contributed, applying Clean Architecture and SOLID principles, to the development of a container monitoring system, used by the international purchases sector, with TypeScript, Nest and React.',
         icon: 'code',
@@ -28,7 +43,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
     ],
   },
   {
-    id: '2',
+    id: '3',
     companyName: 'Freelance, Self-employed',
     companyLogo: 'images/self_employed.webp',
     isCurrentEmployer: false,
@@ -45,7 +60,7 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
     ],
   },
   {
-    id: '3',
+    id: '4',
     companyName: 'MBK GSE',
     companyLogo: '/images/mbk.webp',
     isCurrentEmployer: false,
