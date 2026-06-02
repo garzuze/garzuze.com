@@ -21,7 +21,7 @@ const Topics = () => {
             <CodeXmlIcon size={16} />
           </div>
           <p className="text-balance">
-            Software Engineer @
+            Software Engineering Intern @
             <a
               className="ml-0.5 font-medium underline-offset-4 hover:underline"
               href="https://banco.bradesco/html/classic/index.shtm"
