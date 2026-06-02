@@ -22,11 +22,7 @@ const Profile = () => {
               <h1 className="md:text-4xl text-2xl sm:text-3xl font-bold sm:px-4 px-1 border-y border-stone-200 dark:border-stone-900 w-full scroll-m-20 tracking-tight text-balance">
                 Lucas Garzuze Cordeiro
               </h1>
-              <div className="flex w-full items-center border-b border-stone-200 dark:border-stone-900">
-                <p className="sm:text-sm text-[10px] items-center sm:px-4 px-1 text-gray-500 dark:text-gray-300 font-mono">
-                  Looking for building a brighter future through technology.
-                </p>
-              </div>
+              <div className="flex w-full items-center border-b border-stone-200 dark:border-stone-900"></div>
             </div>
           </div>
         </div>
