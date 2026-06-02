@@ -1,6 +1,6 @@
 import { WorkExperience } from '@/components/work-experience';
 import { EDUCATION } from '../data/education';
-import { TypographyH2 } from './tipography-h2';
+import { TypographyH2 } from './typography-h2';
 
 const Education = () => {
   return (

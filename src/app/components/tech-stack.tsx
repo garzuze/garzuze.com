@@ -5,7 +5,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { TECH_STACK } from '../data/tech-stack';
-import { TypographyH2 } from './tipography-h2';
+import { TypographyH2 } from './typography-h2';
 
 const TechStack = () => {
   return (
