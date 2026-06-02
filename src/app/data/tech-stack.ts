@@ -2,9 +2,9 @@ import { TechStack } from '../types/TechStack';
 
 export const TECH_STACK: TechStack[] = [
   {
-    key: 'python',
-    title: 'Python',
-    href: 'https://www.python.org/',
+    key: 'java',
+    title: 'Java',
+    href: 'https://java.com',
     categories: ['Language'],
   },
   {
@@ -14,15 +14,15 @@ export const TECH_STACK: TechStack[] = [
     categories: ['Language'],
   },
   {
-    key: 'js',
-    title: 'JavaScript',
-    href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    key: 'python',
+    title: 'Python',
+    href: 'https://www.python.org/',
     categories: ['Language'],
   },
   {
-    key: 'php',
-    title: 'PHP',
-    href: 'https://www.php.net/',
+    key: 'spring',
+    title: 'Spring Framework',
+    href: 'https://spring.io/',
     categories: ['Language'],
   },
   {
@@ -42,19 +42,6 @@ export const TECH_STACK: TechStack[] = [
     title: 'React',
     href: 'https://react.dev/',
     categories: ['Library', 'UI Library'],
-  },
-  {
-    key: 'reactquery',
-    title: 'Tanstack Query',
-    href: 'https://tanstack.com/query/latest',
-    categories: ['Library'],
-  },
-  {
-    key: 'next',
-    title: 'Next.js',
-    href: 'https://nextjs.org/',
-    categories: ['Framework'],
-    theme: true,
   },
   {
     key: 'tailwind',
