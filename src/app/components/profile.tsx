@@ -9,6 +9,7 @@ const Profile = () => {
           alt="Avatar image"
           width={1557}
           height={1558}
+          loading="eager"
           className="mx-auto bg-cover rounded-full border border-stone-200 dark:border-stone-900"
         />
       </div>
