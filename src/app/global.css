@@ -88,7 +88,6 @@
   }
 }
 
-
 :root {
 
   --radius: 0.625rem;
@@ -234,52 +233,56 @@
   .prose h1 {
     @apply text-3xl tracking-tight font-sans text-white dark:text-stone-950;
   }
-  
+
   .prose h2 {
     @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 font-sans;
   }
-  
+
   .prose h3 {
     @apply scroll-m-20 text-2xl font-semibold tracking-tight;
   }
-  
+
   .prose p {
     @apply leading-7 [&:not(:first-child)]:mt-6;
   }
-  
+
   .prose ul {
     @apply my-6 ml-6 list-disc [&>li]:mt-2;
   }
-  
+
   .prose ol {
     @apply my-6 ml-6 list-disc [&>li]:mt-2;
   }
-  
+
   .prose blockquote {
     @apply mt-6 border-l-2 pl-6 italic;
   }
-  
+
   .prose code {
     @apply bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
   }
-  
+
   .prose pre {
     @apply bg-stone-100 dark:bg-stone-800 p-4 rounded-lg overflow-x-auto mb-4;
   }
-  
+
   .prose pre code {
     @apply bg-transparent px-0 py-0;
   }
-  
+
   .prose a {
     @apply text-blue-600 dark:text-blue-400 hover:underline;
   }
-  
+
   .prose strong {
     @apply font-bold text-stone-900 dark:text-white;
   }
-  
+
   .prose hr {
     @apply border-stone-300 dark:border-stone-600 my-8;
   }
+}
+
+@utility link-underline {
+    @apply underline decoration-current/30 decoration-1 underline-offset-3 transition-colors hover:decoration-current;
 }
