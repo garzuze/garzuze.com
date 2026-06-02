@@ -1,5 +1,6 @@
 import {
   CodeXmlIcon,
+  Flag,
   GraduationCapIcon,
   LightbulbIcon,
   Mail,
@@ -31,6 +32,15 @@ const Topics = () => {
               Bradesco
             </a>
           </p>
+        </div>
+        <div className="flex items-center gap-4 font-mono">
+          <div
+            className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-700 dark:inset-shadow-[1px_1px_1px,0px_0px_2px] dark:inset-shadow-white/15"
+            aria-hidden="true"
+          >
+            <Flag size={16} />
+          </div>
+          <p className="text-balance">AWS Campus Builder Student Leader</p>
         </div>
         <div className="flex items-center gap-4 font-mono">
           <div
