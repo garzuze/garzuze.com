@@ -1,3 +1,4 @@
+import ContributionGraph from '@/app/components/contribution-graph';
 import AboutMe from './components/about-me';
 import Banner from './components/banner';
 import BigSeparator from './components/big-separator';
@@ -25,6 +26,8 @@ export default function Home() {
         <Topics />
         <BigSeparator />
         <Socials />
+        <BigSeparator />
+        <ContributionGraph />
         <BigSeparator />
         <AboutMe />
         <BigSeparator />
