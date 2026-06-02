@@ -9,12 +9,15 @@ export const WORK_EXPERIENCE: ExperienceItemType[] = [
     positions: [
       {
         id: '1-1',
-        title: 'Software Engineer',
-         employmentPeriod: 'Apr 2026 - Present',
+        title: 'Software Engineering Intern',
+        employmentPeriod: 'Apr 2026 - Present',
         icon: 'code',
-        skills: ['Java', 'SOLID']
-      }
-    ]
+        skills: ['Java', 'SOLID'],
+        isExpanded: true,
+        description:
+          "- Participated in the development of a POC for a financial intelligence module that could be integrated in the company's main app, being the contributor with most commits.\n- Helped other interns with technical questions, project patterns and coding best practices.",
+      },
+    ],
   },
   {
     id: '2',
