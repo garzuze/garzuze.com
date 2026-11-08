@@ -5,8 +5,8 @@ const AboutMe = () => {
     <div className="border-x border-stone-200 dark:border-stone-900 py-6 px-[24px]">
       <TypographyH2>About Me</TypographyH2>
       <p className="leading-7 mt-6">
-        I’m a Software Engineer with experience building web applications across
-        diverse domains.
+        I’m a Software Engineer with experience building server-side
+        applications across diverse domains.
       </p>
       <p className="leading-7 mt-6">
         Despite my young age I&apos;ve been building since 2021, when I had my
